@@ -9,27 +9,33 @@
     <link href="_base.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-  <body> 
-
-    <header>
-      <img src="logo.svg" alt="Wanderers Logo">
-      <h1>Wanderers</h1>
-    </header>
-
-    <a href="/hongkong.html" class="previous">
-      <span>Previous</span>
-    </a>
-
-    <a href="/" class="next">
-      <span>Next</span>
-    </a>
-
-    <div class="photos">
-      <img src="iceland-1.jpg">
-      <img src="iceland-2.jpg">
-      <img src="iceland-3.jpg">
-      <img src="iceland-4.jpg">
-    </div>
+  <body>
+    <main data-barba="wrapper">
+      <article data-barba="container">
+        <header>
+          <img src="logo.svg" alt="Wanderers Logo">
+          <h1>Wanderers</h1>
+        </header>
     
+        <a href="/hongkong.html" class="previous">
+          <span>Previous</span>
+        </a>
+    
+        <a href="/" class="next">
+          <span>Next</span>
+        </a>
+    
+        <div class="photos">
+          <img src="iceland-1.jpg">
+          <img src="iceland-2.jpg">
+          <img src="iceland-3.jpg">
+          <img src="iceland-4.jpg">
+        </div>
+    </article>
+    </main>
+    <script src="barba.js"></script>
+    <script src="barba-prefetch.js"></script>
+    <script src="gsap.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
